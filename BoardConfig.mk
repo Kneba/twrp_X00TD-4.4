@@ -115,7 +115,7 @@ TARGET_USES_MKE2FS := true
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # TWRP Configuration
-TW_DEVICE_VERSION := 1-4.4 kernel based by dotkit
+TW_DEVICE_VERSION := RB-K4.4 by EWprjkt
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
