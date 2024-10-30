@@ -51,7 +51,6 @@ BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-TARGET_COPY_OUT_VENDOR := vendor
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -68,6 +67,7 @@ BOARD_KERNEL_CMDLINE := \
 	swiotlb=1 \
 	loop.max_part=7 \
 	buildvariant=userdebug
+
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
@@ -105,7 +105,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Recovery
-TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 
 # Use mke2fs to create ext4 images
@@ -115,7 +115,7 @@ TARGET_USES_MKE2FS := true
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # TWRP Configuration
-TW_DEVICE_VERSION := 1-K4.4 by dotkit
+TW_DEVICE_VERSION := 2-K4.4 by ∂σткιт
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
