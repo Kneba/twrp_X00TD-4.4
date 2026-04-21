@@ -153,8 +153,8 @@ TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_BRIGHTNESS_PATH := /sys/class/backlight/panel0-backlight/brightness
-TW_MAX_BRIGHTNESS := 4095
-TW_DEFAULT_BRIGHTNESS := 1200
+TW_MAX_BRIGHTNESS := 300
+TW_DEFAULT_BRIGHTNESS := 150
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
@@ -164,7 +164,6 @@ TW_SUPPORT_INPUT_AIDL_HAPTICS := false
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_APEX := true
 TW_INCLUDE_RESETPROP := true
-TW_FRAMERATE := 60
 TW_OVERRIDE_SYSTEM_PROPS := \
     "ro.build.date.utc;ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental;ro.product.device=ro.product.system.device;ro.product.model=ro.product.system.model;ro.product.name=ro.product.system.name"
 
