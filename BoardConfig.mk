@@ -153,7 +153,6 @@ TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_BRIGHTNESS_PATH := /sys/class/backlight/panel0-backlight/brightness
-TW_MAX_BRIGHTNESS := 300
 TW_DEFAULT_BRIGHTNESS := 150
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXTRA_LANGUAGES := true
